@@ -20,10 +20,16 @@ namespace mvcSistemaVentas.Data.Repository
             
             Slider= new SliderRepository(_context);
             Usuario= new UsuarioRepository(_context);
+            Categoria = new CategoriaRepository(_context);
+            Producto= new ProductoRepository(_context);
+            Proveedor = new ProveedorRepository(_context);
         }
 
         public ISliderRepository Slider { get; private set; }
         public IUsuarioRepository Usuario { get; private set; }
+        public ICategoriaRepository Categoria {  get; private set; }
+        public IProductoRepository Producto { get; private set; }
+        public IProveedorRepository Proveedor {  get; private set; }
         public void Dispose()
         {
             _context.Dispose();

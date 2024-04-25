@@ -14,5 +14,9 @@ namespace mvcSistemaVentas.Data
 
         public DbSet<Slider> Slider{ get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
+        public DbSet<Categoria> Categoria { get; set; }
+        public DbSet<Producto> Producto { get; set; }
+        public DbSet<Proveedor> Proveedor { get; set; }
     }
 }
