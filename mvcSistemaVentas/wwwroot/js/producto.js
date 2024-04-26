@@ -18,9 +18,9 @@
                     { "data": "nombre", "width": "15%" },
                     { "data": "descripcion", "width": "20%" },
                     { "data": "stock", "width": "5%" },
-                    { "data": "preciocompra", "width": "10%" },
-                    { "data": "precioventa", "width": "10%" },
-                    { "data": "fechacaducidad", "width": "10%" },
+                    { "data": "precioCompra", "width": "10%" },
+                    { "data": "precioVenta", "width": "10%" },
+                    { "data": "fechaCaducidad", "width": "10%" },
                     {
                         "data": "estado",
                         "render": function (estadoActual) {
@@ -31,7 +31,7 @@
                             }
                         }, "width": "5%"
                     },
-                    { "data": "fecharegistro", "width": "10%" }, // Nueva columna para Fecha de Registro
+                    { "data": "fechaRegistro", "width": "10%" }, // Nueva columna para Fecha de Registro
 
                     {
                         "data": "id",
